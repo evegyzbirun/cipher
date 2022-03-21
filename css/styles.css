@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  color: blanchedalmond;
+  text-align: center;
+}
+img.unlocked {
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+img.locked {
+  height: 250px;
+  width: 250px;
+  float: right;
+}

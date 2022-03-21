@@ -1,7 +1,5 @@
 $(document).ready(function() {
   
-});
-
 let sentenceOne = prompt("Enter a sentence");
 
 const firstLetter = sentenceOne.charAt(0);
@@ -17,7 +15,19 @@ let cipherTwo = sentenceOne.charAt(sentenceOne.length/2);
 let sentenceThree = cipherTwo + sentenceTwo;
 
 function reverseString(str) {
-  return alert(str.split("").reverse().join(""));
+  return str.split("").reverse().join("");
 }
-reverseString(sentenceThree);
+
+$(".unlocked").click(function() {
+  alert(sentenceOne);
+});
+
+$(".locked").click(function() {
+  alert(reverseString(sentenceThree));
+});
+
+
+});
+
+
 
